@@ -1,0 +1,31 @@
+
+.solid{
+&.primary{
+    background-color:purple;
+    }
+    &.secondary{
+        background-color: aquamarine;
+    }
+   &.black{
+        background-color: black;
+        color:white;
+    }
+    &.white{
+        background-color: white;
+        color:black;
+    }
+}
+.outline{
+    &.primary{
+        border-color: purple;
+    }
+    &.secondary{
+        border-color:aquamarine;
+    }
+    &.white{
+        border-color:black;
+    }
+    &.black{
+        border-color:blue;
+    }
+}
