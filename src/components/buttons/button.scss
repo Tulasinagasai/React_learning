@@ -1,7 +1,9 @@
 
 .solid{
+    padding: 30px;
 &.primary{
     background-color:purple;
+  
     }
     &.secondary{
         background-color: aquamarine;
@@ -16,16 +18,21 @@
     }
 }
 .outline{
+    padding: 30px;
     &.primary{
-        border-color: purple;
+       
+        border:5px solid  purple;
     }
     &.secondary{
-        border-color:aquamarine;
+      
+        border:5px solid aquamarine;
     }
     &.white{
-        border-color:black;
+       
+        border:5px solid pink;
     }
     &.black{
-        border-color:blue;
+       
+        border:5px solid blue;
     }
 }

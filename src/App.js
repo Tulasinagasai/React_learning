@@ -18,7 +18,15 @@ function App() {
         >
           Learn React
         </a> */}
+           <Button text="click" bgColor="primary" btn_type="solid"/>
+        <Button text="click" bgColor="secondary" btn_type="solid"/>
+        <Button text="click" bgColor="white" btn_type="solid"/>
+        <Button text="click" bgColor="black" btn_type="solid"/>
+
+ <Button text="click" bgColor="primary" btn_type="outline"/>
         <Button text="click" bgColor="secondary" btn_type="outline"/>
+        <Button text="click" bgColor="white" btn_type="outline"/>
+        <Button text="click" bgColor="black" btn_type="outline"/>
       </header>
     </div>
   );
