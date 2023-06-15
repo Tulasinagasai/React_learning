@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './components/buttons/button';
-import '../src/components/buttons/button.scss';
+import Form from './components/form/Form';
+import Hoc from './components/Hoc/Hoc';
+
 function App() {
   return (
     <div className="App">
@@ -18,10 +19,12 @@ function App() {
         >
           Learn React
         </a> */}
-        <Button text="click" bgColor="secondary" btn_type="outline"/>
+      <h1> Welcome user !!</h1>
+     <Form/>
+    <Hoc/>
       </header>
     </div>
   );
 }
 
-export default App;
+export default Hoc(App);
